@@ -1,0 +1,101 @@
+.fon{
+    background-color: #133B19;
+}
+
+.bigBoxs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 150px;
+    flex-wrap: wrap;
+}
+
+.box1{
+    display: flex;
+    position: relative;
+    top: 0px;
+    width: 300px;
+    height: 250px;
+    border: 1px solid #509659;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: rgba(250, 235, 215, 0.097);
+}
+
+.box1:hover{
+    top: -15px;
+    transition: 0.7s;
+}
+
+.box1>img{
+    position: absolute;
+    left: 20%;
+    top: -50px;
+    width: 200px;
+    transition: 0.7s;
+}
+
+.box1>img:hover{
+    top: -70px;
+    transition: 0.7s;
+}
+
+.heart>img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    transition: 0.5s;
+}
+
+.heart>img:hover{
+    filter: drop-shadow(0px 0px 10px  red);
+    transition: 0.5s;
+}
+
+.box1>h1{
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 47%;
+    left: 15%;
+    padding: 0px 15px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.box1>h2{
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 15%;
+    left: 5%;
+    padding: 0px 15px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.basket>img{
+    position: absolute;
+    width: 30px;
+    bottom: 13.5%;
+    right: 5%;
+}
+
+@media (max-width:1025px) {
+    .fon{
+        padding-bottom: 50px;
+    }
+    .bigBoxs{
+        gap: 40px;
+    }
+}
+
+@media (max-width:769px) {
+    .bigBoxs {
+        padding: 0px 10px;
+    }
+}

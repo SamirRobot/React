@@ -1,0 +1,78 @@
+.content4{
+    background-color: #314533;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 50px 0px;
+}
+
+.content4>h1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 50px;
+}
+
+.pickImg{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pickImg>img{
+    width: 150px;
+}
+
+.pickImg>p{
+    width: 300px;
+}
+
+.icons11{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icons11>p{
+    font-size: 40px;
+}
+
+.image{
+    display: flex;
+    gap: 25px;
+    margin-top: 10px;
+}
+.icon{
+    scale: 1.5;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.icon:hover{
+    filter: drop-shadow(0 0 0.75rem white);
+    transition: 0.5s;
+}
+
+@media (max-width:1025px) {
+    .Footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .pickImg{
+        align-items: center;
+    }
+    .pickImg>p {
+        width: 95%;
+    }
+    .icons11{
+        gap: 25px;
+    }
+}
+

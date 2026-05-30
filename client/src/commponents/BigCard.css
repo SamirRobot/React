@@ -1,0 +1,122 @@
+.fon2{
+    background-color: #133B19;
+    padding: 100px 0px;
+}
+.qutu{
+    padding-top: 20px;
+    display: flex;
+    width: 90%;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.155);
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+.foto_text{
+    display: flex;
+    justify-content: space-between;
+}
+.foto>img{
+    margin: 50px 0px 50px 50px;
+    border-radius: 15px;
+}
+.text_center{
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 50px;
+}
+.text_center>p{
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+}
+
+.text{
+    display: flex;
+    gap: 5px;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+}
+.text2>h1{
+    text-align: left;
+}
+.text2>h3{
+    font-size: 15px;
+}
+
+.text>img{
+    width: 30px;
+    height: 30px;
+}
+.text_center>h2{
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.text_center>h2:hover{
+    color: yellow;
+    transition: 0.7s;
+}
+
+@media (max-width:1025px) {
+    .qutu{
+        padding: 30px 0px 50px;
+    }
+    .foto>img{
+        width: 600px;
+        border-radius: 30px;
+    }
+    .foto_text{
+        flex-direction: column;
+    }
+    .text_center{
+        flex-direction: column;
+        gap: 10px;
+        padding: 0px;
+        margin-top: 10px;
+    }
+    .foto>img{
+        margin: 30px 0px 0px 0px;
+    }
+    .text{
+        justify-content: center;
+    }
+    .text2{
+        align-items: center;
+    }
+    .text_center>p{
+        padding: 20px 50px; 
+        text-align: center;
+    }
+    .text_center>h2 {
+        right: 42%;
+        bottom: -25px;
+    }
+}
+
+@media (max-width:769px) {
+    .text_center>h2 {
+        right: 39%;
+    }
+}
+
+@media (max-width:426px) {
+        .foto>img {
+            width: 100%;
+            padding: 0px 5px;
+        }
+        .text_center>h2 {
+            right: 29%;
+        }
+        .text11>h1, p {
+            width: 100%;
+        }
+}

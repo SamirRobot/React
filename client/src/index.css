@@ -1,0 +1,15 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background-color : #1C471D;
+  z-index: -1;
+}
+.container{
+  width: 95% !important;
+  margin: 0px auto !important;
+}
