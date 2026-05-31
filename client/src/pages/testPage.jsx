@@ -9,6 +9,7 @@ import Footer from "../commponents/Footer.jsx"
 const TestPage = () => {
   return (
      <>
+     
       <Nav/>
       <Hero/>
       <MiniCard/>
