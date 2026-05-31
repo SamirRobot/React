@@ -1,5 +1,5 @@
 import React from 'react' 
-import HomePage from './pages/homePage.jsx'
+import HomePage from './pages/HomePage.jsx'
 import { Route, Routes } from 'react-router-dom'
 
 
@@ -7,7 +7,6 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} /> 
-      
     </Routes>
   )
 }

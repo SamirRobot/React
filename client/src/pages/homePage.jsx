@@ -9,6 +9,7 @@ import Footer from "../commponents/Footer"
 
 
 
+c
 const HomePage = () => {
   return (
     <>
